@@ -1,0 +1,15 @@
+/*A static variable declared with final keyword but not initialised at declaration time is known as static blank final variable. 
+ * It can be initialised in a static block only.
+ */
+class Manager{
+	static final String name;
+	static {
+		name = "radhika";
+		System.out.println(name);
+		}
+}
+public class StaticFinalBlank {
+	Manager names = new Manager();
+
+
+}

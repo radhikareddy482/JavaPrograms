@@ -1,0 +1,18 @@
+interface Employee{
+	default void details() {
+		System.out.println("employee details");
+	}
+}
+interface Manager extends Employee{
+	abstract void name(String msg);
+}
+public class ValidFunctionalInterface {
+	public void name(String msg) {
+		System.out.println(msg);
+	}
+	public static void main(String[] args) {
+		ValidFunctionalInterface v = new ValidFunctionalInterface();
+		v.name("hello there");
+	}
+
+}

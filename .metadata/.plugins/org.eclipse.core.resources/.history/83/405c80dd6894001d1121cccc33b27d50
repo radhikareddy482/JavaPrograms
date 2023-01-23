@@ -1,0 +1,17 @@
+class Fruits{
+	static {
+		System.out.println("radhika reddy");
+	}
+	public void fruits() {
+		System.out.println("Apple");
+	}
+}
+public class StaticBlockvsConstructor {
+	public static void main(String[] args) {
+		Fruits f = new Fruits();
+		f.fruits();
+
+		
+	}
+	
+}

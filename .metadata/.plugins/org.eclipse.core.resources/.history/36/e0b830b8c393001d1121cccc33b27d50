@@ -1,0 +1,10 @@
+
+public class FinalVariable {
+	final String name = "Radhika";
+	public static void main(String[] args) {
+		FinalVariable student = new FinalVariable();
+		//student.name = "raja";
+		System.out.println(student.name);
+	}
+
+}

@@ -1,0 +1,17 @@
+class Employee{
+	public final void show() {
+		System.out.println("employee");
+	}
+}
+class Manager {
+	public void show() {
+		System.out.println("Manager");
+	}
+}
+public class FinalMethod {
+	public static void main(String[] args) {
+		Manager name = new Manager();
+		name.show();
+	}
+
+}

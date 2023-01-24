@@ -10,6 +10,7 @@ import java.io.*;
  
 
 class GetSet {
+ pwd
  
     // Member variable of this class
     private String name;
